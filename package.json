@@ -1,6 +1,6 @@
 {
   "name": "dumb-sorts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "collection of dumb sorting algorithms",
   "main": "index.js",
   "type": "module",
