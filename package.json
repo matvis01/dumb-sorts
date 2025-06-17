@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/matvis01/dumb-sorts/issues"
   },
-  "homepage": "https://github.com/matvis01/dumb-sorts#readme"
+  "homepage": "https://github.com/matvis01/dumb-sorts#readme",
+  "files": ["README.md"]
 }
