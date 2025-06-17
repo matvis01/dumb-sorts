@@ -1,5 +1,10 @@
 import { isSorted } from '../utils.js';
 
+/** 
+ * Randomly swaps elements in the array until it is sorted.
+ * @param {Array} array
+ * @returns {Array} The sorted array.
+ */
 export function bozoSort(array) {
   if (array.length === 0) return array;
 

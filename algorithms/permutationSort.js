@@ -1,5 +1,10 @@
 import { isSorted } from '../utils.js';
 
+/** 
+ * Generates all permutations of the array and returns the first sorted permutation.
+ * @param {Array} array - The array to be sorted.
+ * @returns {Array} The first sorted permutation of the array
+ */
 export function permutationSort(array) {
   if (array.length === 0) return array;
 

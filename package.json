@@ -1,7 +1,7 @@
 {
   "name": "dumb-sorts",
   "version": "1.0.0",
-  "description": "collection of dumb sorthing algorithms",
+  "description": "collection of dumb sorting algorithms",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/matvis01/dumb-sorts.git"
   },
   "keywords": [
-    "sort"
+    "sort", "bogosort", "dumb", "algorithm", "sorting", "permutation sort", "stalin sort", "sleep sort", "bogo sort", "dumb sort", "dumb sorting algorithms", "dumb algorithms", "dumb sorting"
   ],
   "author": "matvis01",
   "license": "ISC",

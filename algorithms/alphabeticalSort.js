@@ -47,6 +47,11 @@ function numberToWords(n) {
 }
 
 
+/**
+ * Sorts an array of numbers alphabetically based on their English word representation.
+ * @param {Array} array - The array to be sorted.
+ * @returns {Array} The sorted array.
+ */
 export function alphabeticalSort(array) {
   if (array.length === 0) return array;
 
