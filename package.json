@@ -1,0 +1,23 @@
+{
+  "name": "dumb-sorts",
+  "version": "1.0.0",
+  "description": "collection of dumb sorthing algorithms",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matvis01/dumb-sorts.git"
+  },
+  "keywords": [
+    "sort"
+  ],
+  "author": "matvis01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matvis01/dumb-sorts/issues"
+  },
+  "homepage": "https://github.com/matvis01/dumb-sorts#readme"
+}
