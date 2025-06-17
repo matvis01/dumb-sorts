@@ -41,7 +41,7 @@ Like Bogo Sort but only swaps two random elements at a time.
 const sorted = bozoSort([3, 1, 4, 1, 5]);
 ```
 
-#### ☭ Stalin Sort
+#### Stalin Sort
 Removes any element that is smaller than the previous one. The result is technically sorted.
 ```javascript
 const sorted = stalinSort([1, 5, 2, 7, 3, 9]);
@@ -79,13 +79,15 @@ const sorted = await geminiSort([3, 1, 4], 'your-api-key');
 
 ## Performance Comparison
 
-| Algorithm    | Best Case     | Average Case       | Worst Case         | Space       |
-|--------------|---------------|--------------------|--------------------|-------------|
-| Quick Sort   | O(n log n)    | O(n log n)         | O(n^2)             | O(log n)    |
-| Bogo Sort    | O(n)          | O(n * n!)          | O(infinity)        | O(1)        |
-| Stalin Sort  | O(n)          | O(n)               | O(n)               | O(n)        |
-| Sleep Sort   | O(max(array)) | O(max(array))      | O(max(array))      | O(n)        |
-| Gemini Sort  | O(HTTP)       | O(HTTP + AI thinking) | O(API rate limit) | O(internet) |
+| Algorithm | Best Case | Average Case | Worst Case | Space |
+|-----------|-----------|--------------|------------|-------|
+| Bogo Sort | O(n) | O(n × n!) | O(∞) | O(1) |
+| Bozo Sort | O(n) | O(n × n!) | O(∞) | O(1) |
+| Stalin Sort | O(n) | O(n) | O(n) | O(n) |
+| Alphabetical Sort | O(n log n) | O(n log n) | O(n log n) | O(n) |
+| Permutation Sort | O(n × n!) | O(n × n!) | O(n × n!) | O(n!) |
+| Sleep Sort | O(max(array)) | O(max(array)) | O(max(array)) | O(n) |
+| Gemini Sort | O(HTTP) | O(HTTP + AI) | O(API limit) | O(internet) |
 
 ## Why Would You Use This?
 
